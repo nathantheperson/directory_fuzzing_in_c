@@ -115,6 +115,7 @@ int hello_socket(char *host, in_port_t port) {
 
   if (recv(socket_call, server_reply, 2000, 0) < 0) {
     puts("\n\nrecv failed\n");
+    return 1;
   }
 
   server_reply[15] = '\0';
