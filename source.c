@@ -185,7 +185,7 @@ int pulls_string(FILE *pfile, int read_line, char *wordlist) {
 
     if (feof(pfile)) {
       keep_reading = false;
-      printf("%d requests will be sent\n", current_line);
+      printf("%d requests will be sent\n----------------\n", current_line);
     } else if (current_line == read_line) {
       keep_reading = false;
     }
