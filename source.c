@@ -185,7 +185,7 @@ int pulls_string(FILE *pfile, int read_line, char *wordlist) {
 
     if (feof(pfile)) {
       keep_reading = false;
-      printf("File %d lines.\n", current_line - 1);
+      printf("File %d lines.\n", current_line);
       printf("Couldn't find line %d.\n", read_line);
     } else if (current_line == read_line) {
       keep_reading = false;
