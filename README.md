@@ -9,7 +9,7 @@ Then I would call all three from the main function (putting the send request fun
 at the value of global varialbe file_size).  Also the way that host names are checked to see if they need a domain<br>
 name resolution is not very thorough and the program will probably break if more than one subdomain is used <br>
 (e.g. example.example.example.com)<br><br>
-As of now, the main funcion essentially checks for user input error and then calls iterates_file which then <br>
+As of now, the main function essentially checks for user input error and then calls iterates_file which then <br>
 controls the flow of the program.  <br>
 <br>
 How to use the program
