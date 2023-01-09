@@ -1,5 +1,5 @@
 # directory_fuzzing_in_c
-brute force get requests to specified port number
+brute force get requests to specified port number<br>Unix based systems only.
 <br>
 
 <br>
@@ -13,4 +13,4 @@ As of now, the main function essentially checks for user input error and then ca
 controls the flow of the program.  <br>
 <br>
 How to use the program
- - ./a.out <hostname> <port> <path/to/wordlist> <request delay in seconds> | cat > output<br><br>
+ - "./a.out <hostname> <port> <path/to/wordlist> <request delay in seconds> | cat > output.txt"<br><br>
