@@ -23,7 +23,7 @@ int count_char(char *s, char c);
 
 int main(int argc, char *argv[]) {
 
-  if (argc != 5 || argc > 5) {
+  if (argc != 5) {
     fprintf(stderr,
             "Usage: %s <hostname> <port> <path/to/wordlist> <request delay in "
             "seconds>\n",
