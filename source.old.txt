@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+#include <unistd.h> 
 
 #define FILENAME_SIZE 1024
 #define MAX_LINE 2048
@@ -74,7 +74,7 @@ int count_char(char *s, char c) {
   }
   return count;
 }
-
+ 
 int hello_socket(char *host, in_port_t port) {
 
   struct sockaddr_in server;
