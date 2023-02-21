@@ -77,7 +77,7 @@ int main(int argc, char* argv[]) {
 	sleep(1);
       }
 
-      //figure out how to dynamically iterate through the list and free everything
+      //dynamically iterate through the list and free everything
       ht_del(ht, "Date");
       ht_del(ht, "HTTP/1.1");
       ht_del(ht, "Content-Length");
